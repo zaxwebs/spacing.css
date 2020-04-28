@@ -1,0 +1,15 @@
+@import './variables';
+
+@each $name, $value in $scale {
+  .inset-#{$name} {
+    padding: $value;
+  }
+
+  .stack-#{$name} {
+    margin-bottom: $value;
+  }
+
+  .inline-#{$name} {
+    margin-right: $value;
+  }
+}
