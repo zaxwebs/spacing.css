@@ -5,6 +5,14 @@
     padding: $value;
   }
 
+  .squish-#{$name} {
+    padding: ($value * 0.5) $value;
+  }
+
+  .stretch-#{$name} {
+    padding: $value ($value * 0.5);
+  }
+
   .stack-#{$name} {
     margin-bottom: $value;
   }
